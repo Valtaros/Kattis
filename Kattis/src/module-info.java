@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Fabian
- *
- */
-module kattis {
-}
