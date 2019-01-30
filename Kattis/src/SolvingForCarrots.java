@@ -7,6 +7,8 @@ public class SolvingForCarrots {
 		int	a = input.nextInt();
 			a = input.nextInt();
 		System.out.print(a);
+		
+		input.close();
 		return;
 	}
 
