@@ -1,8 +1,10 @@
 import	java.util.Scanner;
 
-public class Template {
+public class Template
+{
 
-	public static void main(String[] args) {
+	public static void main(String[] args)
+	{
 		//	initialize input scanner
 		Scanner	input	=	new Scanner(System.in);
 		
