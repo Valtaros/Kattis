@@ -10,6 +10,16 @@ public class Geppetto {
 		
 		boolean[][] exclusions 		= new boolean[number_of_ingredients][number_of_ingredients];
 		
+		for(int i = 0; i < number_of_ingredients; i++) {
+			for(int j = 0; j < number_of_ingredients; j++) {
+				exclusions[i][j] = false;
+			}
+		}
+		
+		for(int i = 0; i < number_of_exclusions; i++) {
+			
+		}
+		
 		input_scanner.close();
 		
 	}
