@@ -1,3 +1,6 @@
+/*
+ * Problem seems to be solved, Kattis returns time limit exceeded
+ */
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.TreeSet;
