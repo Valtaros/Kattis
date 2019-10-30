@@ -3,24 +3,36 @@ import java.util.Scanner;
 public class Geppetto {
 
 	public static void main(String[] args) {
+		
+		//	initialize scanner
 		Scanner input_scanner = new Scanner(System.in);
 		
-		int number_of_ingredients	= input_scanner.nextInt();
-		int number_of_exclusions	= input_scanner.nextInt();
+		//	initialize variables n(total number of ingredients) and m(number of exclusions)
+		int n	= input_scanner.nextInt();
+		int m	= input_scanner.nextInt();
 		
-		boolean[][] exclusions 		= new boolean[number_of_ingredients][number_of_ingredients];
-		
-		for(int i = 0; i < number_of_ingredients; i++) {
-			for(int j = 0; j < number_of_ingredients; j++) {
+		//	initialize table for exclusions
+		boolean[][] exclusions = new boolean[n][n];
+		for(int i = 0; i < n; i++) {
+			for(int j = 0; j < n; j++) {
 				exclusions[i][j] = false;
 			}
 		}
 		
-		for(int i = 0; i < number_of_exclusions; i++) {
+		//	read exclusions
+		for(int i = 0; i < m; i++) {
+			int first	= input_scanner.nextInt();	
+			int second	= input_scanner.nextInt();
+			exclusions[first][second] = true;
+			exclusions[second][first] = true;
 			
 		}
 		
+		
+		//	close scanner (no more input expected)
 		input_scanner.close();
+		
+		
 		
 	}
 
