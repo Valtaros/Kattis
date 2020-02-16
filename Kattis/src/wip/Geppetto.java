@@ -1,3 +1,4 @@
+package wip;
 import java.util.Scanner;
 
 public class Geppetto {

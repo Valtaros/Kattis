@@ -1,3 +1,4 @@
+package wip;
 /*
  * Problem seems to be solved, Kattis returns time limit exceeded
  */
