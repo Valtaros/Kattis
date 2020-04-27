@@ -1,3 +1,5 @@
+//This is a solution for the problem "" from open.kattis.com
+//link to problem: https://open.kattis.com/problems/
 package wip;
 import	java.util.Scanner;
 
