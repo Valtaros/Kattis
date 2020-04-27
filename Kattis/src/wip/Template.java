@@ -3,19 +3,13 @@
 package wip;
 import	java.util.Scanner;
 
-public class Template
-{
-
-	public static void main(String[] args)
-	{
-		//	initialize input scanner
-		Scanner	input	=	new Scanner(System.in);
-		
-		
-		
-		//	end program
-		input.close();
-		return;
+public class Template{
+	
+	public static void main(String[] args) {
+		//initialize input scanner
+		Scanner	inputScanner = new Scanner(System.in);
+			
+		//close Scanner
+		inputScanner.close();
 	}
-
 }
