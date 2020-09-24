@@ -1,3 +1,5 @@
+//This is a solution for the problem "Billiard" from open.kattis.com
+//link to problem: https://open.kattis.com/problems/billiard
 package solved;
 
 import java.util.Scanner;
