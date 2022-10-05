@@ -1,4 +1,4 @@
-package main.java.wip;
+package main.java.wip.paused;
 import java.util.Scanner;
 
 public class Geppetto {

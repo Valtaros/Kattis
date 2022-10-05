@@ -1,4 +1,4 @@
-package main.java.wip;
+package main.java.wip.paused;
 /*
 1. VERSION - TIME LIMIT EXCEEDED
  

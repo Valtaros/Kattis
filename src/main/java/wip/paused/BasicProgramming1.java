@@ -1,7 +1,7 @@
 //This is a solution for the problem "Basic Programming 1" from open.kattis.com
 //link to problem: https://open.kattis.com/problems/basicprogramming1
 
-package main.java.wip;
+package main.java.wip.paused;
 
 import java.util.ArrayList;
 import java.util.Iterator;

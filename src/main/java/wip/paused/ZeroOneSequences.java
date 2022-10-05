@@ -1,4 +1,4 @@
-package main.java.wip;
+package main.java.wip.paused;
 public class ZeroOneSequences {
 	private int numberOfCheckedZeros;
 	private int numberOfCheckedQuestionmarks;

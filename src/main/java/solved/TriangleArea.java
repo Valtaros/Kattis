@@ -1,6 +1,6 @@
 //This is a solution for the problem "Triangle Area" from open.kattis.com
 //link to problem: https://open.kattis.com/problems/triarea
-package main.java.wip;
+package main.java.solved;
 
 import java.util.Scanner;
 

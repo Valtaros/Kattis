@@ -1,4 +1,4 @@
-package main.java.wip;
+package main.java.wip.paused;
 /*
  * Problem seems to be java.solved, Kattis returns time limit exceeded
  */
