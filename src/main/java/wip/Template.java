@@ -8,7 +8,7 @@ public class Template{
 	public static void main(String[] args) {
 		//initialize input scanner
 		Scanner	inputScanner = new Scanner(System.in);
-			
+
 		//close Scanner
 		inputScanner.close();
 	}
